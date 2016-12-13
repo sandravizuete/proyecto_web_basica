@@ -2,50 +2,67 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Mi web de cervezas</title>
-    <link rel="stylesheet" href="css/style.css">
+	<meta charset="UTF-8">
+	<title>Mi web de cervezas</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header>
-        <img src="img/logo.png" alt="" class="logo">
-        <h1 class="title">Mis cervezas</h1>
-        <p class="subtitle">Aficiones y locuras de amante de la cerveza</p>
-        <nav>
-            <ul class="menu">
-                <li class="menuitem">
-                    <a href="" class="menulink"></a>
-                </li>
-                <li class="menuitem">
-                    <a href="" class="menulink"></a>
-                </li>
-                <li class="menuitem">
-                    <a href="" class="menulink"></a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <aside>
-        <div>
-            <h1 class="bannerTitle"></h1>
-            <div class="bannerBody">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam impedit ut placeat sit quia soluta ex qui exercitationem a odit quam, quibusdam, nam veniam molestiae assumenda, nisi tempora enim quas.</p>
-                <p>Accusamus rem nostrum itaque et, pariatur architecto ipsam aliquid, quam ipsa aperiam similique autem temporibus provident quaerat tenetur explicabo. Repellat odio, esse tempore nulla sint labore est natus, dolore. Laboriosam.</p>
-            </div>
-        </div>
-        <div>
-            <h1 class="bannerTitle"></h1>
-            <div class="bannerBody">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi error ex possimus neque vel veritatis. Excepturi assumenda ea, voluptatum repudiandae placeat, quod soluta provident ad perspiciatis corporis voluptatibus tempora minima?</p>
-                <p>Ratione commodi itaque, voluptatum modi alias autem? Doloribus similique provident, incidunt velit cumque quidem molestias sit ad praesentium tempora adipisci quod laudantium magnam reiciendis vel saepe aliquam fugit ullam voluptatibus.</p>
-            </div>
-        </div>
-    </aside>
-    <main></main>
-    <footer>
-        <p class="copyright">Sitio web realizado por un amante de la cerveza</p>
-    </footer>
+	<header>
+		<img src="img/logo.png" alt="" class="logo">
+		<h1 class="title">Mis cervezas</h1>
+		<p class="subtitle">Aficiones y locuras de amante de la cerveza</p>
+		<nav>
+			<ul class="menu">
+				<li class="menuitem">
+					<a href="" class="menulink"></a>
+				</li>
+				<li class="menuitem">
+					<a href="" class="menulink"></a>
+				</li>
+				<li class="menuitem">
+					<a href="" class="menulink"></a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<aside>
+		<div>
+			<h1 class="bannerTitle"></h1>
+			<div class="bannerBody">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam impedit ut placeat sit quia soluta ex qui exercitationem a odit quam, quibusdam, nam veniam molestiae assumenda, nisi tempora enim quas.</p>
+				<p>Accusamus rem nostrum itaque et, pariatur architecto ipsam aliquid, quam ipsa aperiam similique autem temporibus provident quaerat tenetur explicabo. Repellat odio, esse tempore nulla sint labore est natus, dolore. Laboriosam.</p>
+			</div>
+		</div>
+		<div>
+			<h1 class="bannerTitle"></h1>
+			<div class="bannerBody">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi error ex possimus neque vel veritatis. Excepturi assumenda ea, voluptatum repudiandae placeat, quod soluta provident ad perspiciatis corporis voluptatibus tempora minima?</p>
+				<p>Ratione commodi itaque, voluptatum modi alias autem? Doloribus similique provident, incidunt velit cumque quidem molestias sit ad praesentium tempora adipisci quod laudantium magnam reiciendis vel saepe aliquam fugit ullam voluptatibus.</p>
+			</div>
+		</div>
+	</aside>
+	<main>
+		<h1>Contactar</h1>
+		<p>No me interesa conocerte. Si sabes de alguna cerveza que merezca la pena probar, escribe su nombre y una descripción</p>
+		<p>¡Quizá me anime y la ponga en la lista!</p>
+		<form action="contactar.php">
+			<div>
+				<label for="cerveza">Nombre</label>
+				<input type="text" name="cerveza" id="cerveza">
+			</div>
+			<div>
+				<label>Descripción</label>
+				<textarea name="desc" id="desc" cols="30" rows="10"></textarea>
+			</div>
+			<div>
+				<input type="submit" value="Enviar">
+			</div>
+		</form>
+	</main>
+	<footer>
+		<p class="copyright">Sitio web realizado por un amante de la cerveza</p>
+	</footer>
 </body>
 
 </html>
